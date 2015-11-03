@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="{{ site.baseurl }}common/main.css">
+</head>
+
+<body>
+<div id="backgound">
+	<div id="sidebar">
+		<div id="sidebar-header">
+			RK的博客
+		</div>
+		<div id="sidebar-page">
+			<ul class="title-list">
+			　　　　{% for post in site.posts %}
+				<li><a class="highlight" href="{{ post.url }}">{{ post.title }}</a></li>
+			　　　　{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+	<div id="mainboard">
+		<div id="post">
+			{{ content }}
+		<div>
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+a {
+	text-decoration: none;
+}
+
+#backgound {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	white-space:nowrap;
+}
+#sidebar {
+	vertical-align:top;
+	background: #181d20;
+	height: 100%;
+	width: 20%;
+	display:inline-block;
+}
+
+#sidebar-header {
+    margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #eecc44;
+}
+#sidebar-page {
+}
+
+#mainboard {
+	vertical-align:top;
+	height: 100%;
+	width: 80%;
+	display:inline-block;
+}
+
+#post {
+	margin: 20px;
+}
+
+.title-list {
+    list-style: none;
+}
+ul {
+	margin: 5px;
+	padding: 0px;
+}
+li {
+	margin: 5px;
+}
+
+.highlight {
+	color: #eeeeaa;
+}
+
+.highlight:hover {
+	color: white;
+}
+
+

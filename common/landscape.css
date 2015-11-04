@@ -24,7 +24,6 @@ a {
 	padding-right: 10px;
 	text-align: center;
 	font-size: 24px;
-	color: #eecc44;
 }
 #sidebar-page {
 }
@@ -59,4 +58,6 @@ li {
 	color: white;
 }
 
-
+.golden {
+	color: #eecc44;
+}

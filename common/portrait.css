@@ -16,7 +16,7 @@ a {
 #sidebar-header {
     margin-top: 20px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 1.6em;
 }
 #sidebar-page {
 }
@@ -26,6 +26,12 @@ a {
 
 #post {
 	margin: 20px;
+}
+
+#post-title {
+	text-align: center;
+	font-size: 2em;
+	font-weight:bold;
 }
 
 .title-list {
@@ -39,11 +45,11 @@ li {
 	margin: 5px;
 }
 
-.highlight {
+.title-link {
 	color: #eeeeaa;
 }
 
-.highlight:hover {
+.title-link:hover {
 	color: white;
 }
 

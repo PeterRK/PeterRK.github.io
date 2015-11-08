@@ -1,1 +1,3 @@
-baseurl: /
+baseurl:		/
+highlighter:	pygments
+mardown:		redcarpet

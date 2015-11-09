@@ -2,20 +2,26 @@ a {
 	text-decoration: none;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
 #backgound {
 	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	white-space:nowrap;
+	white-space: nowrap;
 }
 #sidebar {
-	vertical-align:top;
+	vertical-align: top;
 	background: #181d20;
 	height: 100%;
-	width: 22%;
-	display:inline-block;
+	width: 22.5%;
+	display: inline-block;
 }
 
 #sidebar-header {
@@ -29,10 +35,11 @@ a {
 }
 
 #mainboard {
-	vertical-align:top;
+	vertical-align: top;
 	height: 100%;
-	width: 78%;
-	display:inline-block;
+	width: 77%;
+	display: inline-block;
+	overflow: auto;
 }
 
 #post {
@@ -45,7 +52,7 @@ a {
 	margin-top: 1em;
 	text-align: center;
 	font-size: 2em;
-	font-weight:bold;
+	font-weight: bold;
 }
 
 .title-list {

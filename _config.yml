@@ -2,3 +2,7 @@ baseurl:			/
 highlighter:		pygments
 mardown:			redcarpet
 excerpt_separator:	'<!--detail-->'
+paginate:			5
+paginate_path:		"p:num"
+gems :
+  - jekyll-paginate

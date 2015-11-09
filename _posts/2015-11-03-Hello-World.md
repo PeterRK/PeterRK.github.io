@@ -5,6 +5,8 @@ title: 小小尝试
 
 ## Hello World
 
+ <!--detail-->
+
 {% highlight c %}
 #include<stdio.h>
 int main(void)

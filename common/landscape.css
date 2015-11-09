@@ -42,16 +42,26 @@ body {
 	overflow: auto;
 }
 
+#foot-bar {
+	text-align: center;
+}
+
 #post {
+	margin-top: 1em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 }
 
 #post-title {
-	margin-top: 1em;
 	text-align: center;
 	font-size: 2em;
+	font-weight: bold;
+}
+
+.title-words {
+	text-align: center;
+	font-size: 1.8em;
 	font-weight: bold;
 }
 

@@ -33,6 +33,12 @@ a {
 	font-weight: bold;
 }
 
+.title-words {
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
 .title-list {
     list-style: none;
 }

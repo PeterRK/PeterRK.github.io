@@ -1,5 +1,4 @@
-baseurl: /
-highlighter: pygments
+highlighter: rouge
 mardown: redcarpet
 excerpt_separator: '<!--detail-->'
 paginate: 5
